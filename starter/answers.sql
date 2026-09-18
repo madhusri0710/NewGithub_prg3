@@ -1,0 +1,7 @@
+USE CollegeDB;
+
+ALTER TABLE Student
+ADD COLUMN Email VARCHAR(30),
+ADD COLUMN PhoneNumber DECIMAL(10,0);
+
+DESCRIBE Student;
